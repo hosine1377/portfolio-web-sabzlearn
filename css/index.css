@@ -101,3 +101,106 @@ border-radius: 1rem;
     font-weight:bold;
 }
 /* End Landing Style */
+/* start Latest Courses Style  */
+.courses{
+    margin:4rem 0;
+
+}
+.courses-header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.courses-header__right{
+    display: flex;
+    flex-direction: column;
+
+}
+.courses-header__text{
+    color: #9c9c9c;
+    font-size: 1.5rem;
+}
+.courses-header__link{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    color: var(--white-color);
+    background-color: var(--primery-color);
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+}
+.courses-header__link:hover{
+    color: var(--white-color);
+}
+.courses-header-icon{
+    margin-right:.5rem;
+    font-size:1.5rem
+}
+
+.course-box{
+    background:var(--white-color);
+    box-shadow: 0 0 19px rgba(168, 172, 185, .3);
+    border-radius: 1rem;
+    margin: 2rem 0;
+    transition: all 400ms ease;
+
+}
+.course-box:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 19px rgba(168, 172, 185, .5);
+}
+
+
+.course-box__img{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+.course-box__main{
+    padding:0 1.2rem
+}
+.course-box__title{
+    display:block;
+    padding: 1rem 0;
+}
+.course-box__rating-teacher{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.course-box__teacher{
+    display:flex;
+    align-items:center;
+}
+/* End Latest Courses Style  */
+
+
+/* start Helper Classes */
+.title{
+    font-size:2.3rem;
+    color: #444446;
+    font-weight: bold;
+    line-height: 1.2;
+    position: relative;
+}
+.title::before{
+    content: "";
+    position: absolute;
+    right: -1rem;
+    width: .4rem;
+    height: 4.4rem;
+    border-radius: 5rem;
+    background: var(--primery-color);
+    transform: rotate(8deg);
+}
+.title::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    max-width: 250px;
+    height: 60%;
+    background-color: rgba(43, 206, 86, .2);
+}
+/* End Helper Classes */
+
