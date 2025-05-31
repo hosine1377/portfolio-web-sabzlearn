@@ -167,9 +167,64 @@ border-radius: 1rem;
     align-items:center;
     justify-content: space-between;
 }
+.course-box__rating{
+    display:flex;
+    flex-direction: row-reverse;
+}
+.fa-star,.fa-star-half{
+    color:gold;
+}
 .course-box__teacher{
     display:flex;
     align-items:center;
+    align-items: center;
+}
+.course-box__teacher-link{
+    color:#6c757d;
+    font-size:1.2rem;
+    margin-right:.4rem;
+}
+.course-box__status{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem 0 ;
+}
+.course-box__users-icon{
+    color: #6c757d;
+    font-size: 1.6rem;
+}
+.course-box__users-text{
+    color: #6c757d;
+    font-size: 1.4rem;
+
+}
+.course-box__users-price{
+    color:#9c9c9c;
+    font-size:1.8rem;
+}
+.course-box__footer{
+    display:flex;
+    align-items:center;
+      justify-content: center;
+    padding:1.3rem 0;
+    border-top: 1px solid #e8e8e8;
+}
+.course-box__footer-link{
+display: flex;
+align-items: center;
+justify-content: center;
+
+color: var(--primery-color);
+font-size: 1.6rem;
+
+
+}
+.course-box__footer-icon{
+margin-right: .5rem;
+font-size: 1.8rem;
+color: var(--primery-color);
+
 }
 /* End Latest Courses Style  */
 
